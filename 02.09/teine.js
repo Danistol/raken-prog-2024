@@ -27,4 +27,10 @@ function addNumbersNested(num1){
 console.log(addNumbersNested(3)(4));
 
 const addNumbersNestedd = (num1) => (num2) => num1 + num2;
-console.log(addNumbersNestedd(10)(20)); 
+console.log(addNumbersNestedd(10)(20));
+
+
+
+
+const HelloName = (nimi) => {return 'Hello ' + nimi};
+console.log(HelloName('Daniil'));
