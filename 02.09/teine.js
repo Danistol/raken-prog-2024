@@ -34,3 +34,21 @@ console.log(addNumbersNestedd(10)(20));
 
 const HelloName = (nimi) => {return 'Hello ' + nimi};
 console.log(HelloName('Daniil'));
+
+
+
+
+
+const newArray = [1, 2, 3, 4, 5];
+
+const addedArray = newArray.map(element => element + 5);
+console.log(addedArray);
+
+
+
+const threeParameters = newArray.map((element, index, array) => {
+    console.log(element, index, array);
+
+
+    return element + 5;
+});
